@@ -1,0 +1,264 @@
+#home-Body{
+    background-color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+
+}
+
+#upperBar{
+    background-color: #1d2124;
+    padding: 10px 20px;
+    color:#fff;
+}
+
+#upperBar .logo{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+#upperBar .logo>i{
+    color:#fff;
+}
+
+#upperBar .logo .logo-p-2{
+    color:#FB6109;
+}
+
+.h-40{
+    line-height: 40px;
+}
+
+/* style navbar */
+.navbar-light{
+ border-bottom: 1px solid #dee2e6c4;
+}
+
+.navbar-light .navbar-brand{
+    color: #1d2124;
+}
+
+
+.navbar-light .navbar-nav .nav-link{
+    color:#555;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus{
+    color:#FB6109;
+}
+
+
+#drop-cates{
+    width: 350px;
+    max-height:250px;
+    overflow-y:scroll;
+    border-top: 5px solid #f46109;
+}
+
+#category-img{
+    background-image: url("public/images/shop-placeholder.png");
+    height: 150px;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+#category-img:after{
+    content: "";
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(251, 97, 9,0.7)
+}
+
+
+
+
+
+
+
+.carousel .carousel-inner .carousel-item img{
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-caption{
+    right: unset;
+    top: 12%;
+    text-align: left;
+    width: 70%;
+    left:80px;
+    padding-right: 30px;
+    padding-left: 30px;
+    color: #fff;
+
+}
+
+.carousel-caption h5{
+    font-size: 40px;
+}
+
+.carousel-caption p{
+    font-size: 18px;
+    width:70%;
+}
+
+.carousel .carousel-control-prev, .carousel-control-next{
+    width:6%;
+}
+
+/* side boxes */
+
+.home-content #categories .list-group .head{
+    background-color:#3B424C;
+    padding:7px 20px 10px;
+    color:#fff;
+    font-size: 20px;
+}
+
+
+
+.home-content #categories .list-group .list-group-item{
+    background-color: #272C32;
+    color:#fff;
+}
+
+.home-content #categories .list-group
+.list-group-item:hover{
+    background-color:#3B424C;
+    color:#fff;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+.home-content #tags .list-group .head{
+    background-color:#f5f5f5;
+    padding:7px 20px 10px;
+    color:#444;
+    font-size: 20px;
+    border:1px solid #ccc;
+}
+
+
+.home-content #tags .list-group .list-group-item{
+    background-color: #f6f6f6;
+    color:#555;
+}
+
+.home-content #tags .list-group
+.list-group-item:hover{
+    background-color:#272C32;
+    color:#fff;
+    transition: all 0.3s ease-in-out;
+}
+
+/* single product style */
+#products .single-product .product-price{
+    position: absolute;
+    right: 15px;
+    background-color: #217aff;
+    color: #fff;
+    padding: 4px;
+}
+#products .single-product .product-info{
+ background-color: #fff;
+    border:1px solid #f4f4f4;
+    color:#444;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 2px;
+}
+
+#products .single-product .product-name{
+    font-size: 16px;
+    color:#555;
+}
+
+#products .single-product .under-name{
+    font-size: 12px;
+    color:#555;
+}
+
+/* Show single product for user */
+
+
+#single-product .product-imgs .small-imgs{
+display: inline-block;
+}
+
+#single-product .product-imgs img{
+ width: 40px ;
+    height:40px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#single-product .product-imgs #img-preview{
+    width:85% !important;
+    height:280px !important;
+    border-radius: 5px !important;
+    transition: all 2s ease;
+}
+
+/******************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**********************************************************/
+
+#big-footer{
+    background-color: #1b1e21;
+    color: #ccc;
+    padding: 20px 10px;
+
+}
+
+#big-footer .one ul li a,
+#big-footer .two ul li a,
+#big-footer .three ul li a,
+#big-footer .three div  a
+{
+    color:#cccccc;
+    text-decoration: none;
+}
+
+#big-footer  .four i{
+    padding: 5px;
+    border:1px solid #555;
+    font-size: 18px;
+    border-radius: 3px;
+
+}
+
+#footer-bottom{
+    text-align: center;
+    color:#ccc;
+    background-color: #1d2124;
+    padding:7px;
+    font-size: 13px;
+}
+
+

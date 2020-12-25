@@ -1,0 +1,322 @@
+
+/* start bodies styles */
+
+#login-Body{
+    background-color: #1d643b;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#register-Body{
+    background-color: #4c110f;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#dashboard-Body{
+    background-color: #f4f4f4;
+    padding-left: 60px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+/* end bodies styles */
+
+
+
+/* start side-nav style */
+
+.side-nav{
+    height: 100%;
+    width: 60px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff;
+    text-align: center;
+    box-shadow: 1px 3px 5px #cccccc;
+}
+
+.side-nav .top h3{
+    color: #fff;
+    text-align: center;
+    padding: 14px 0px 21px;
+    font-size: 18px;
+    background-color: #666666;
+
+}
+
+.side-nav .sep {
+
+    color: #fff;
+    border-top: 1px solid #cccccc29;
+    margin: 13px 0px 0px;
+
+}
+
+.side-nav .mid ul{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.side-nav .mid ul li{
+    margin:7px 0px 7px;
+    padding: 5px;
+    border-bottom: 1px solid #cccccc;
+}
+
+.side-nav .mid ul li a i{
+    color:#666;
+    text-align: left;
+    font-size: 18px;
+}
+
+
+
+
+/* end side-nav style */
+
+/* start stats div */
+
+.stats{
+    padding: 12px 10px;
+    height: 100px;
+    color:#fff;
+    text-align: center;
+    vertical-align: center;
+    border-radius: 4px;
+    box-shadow: 2px 3px 5px #ccc;
+    background-color: #ffffff;
+}
+
+.stats i {
+    font-size: 50px;
+    width: 80px;
+    background-color: white;
+    padding: 10px;
+    position: absolute;
+    left: 35px;
+    top: -16px;
+    border-radius: 2px;
+    color:#fff;
+    border:1px solid #ccc;
+}
+
+.stats .detail{
+    margin-top: 0px;
+    display: inline-block;
+    margin-left: 45px;
+    color: #1b1e21;
+
+}
+
+ i.first{
+     background-color: #2980b9;
+}
+
+i.second{
+    background-color: #27ae60;
+}
+
+i.third{
+    background-color: #c0392b;
+}
+
+i.fourth{
+    background-color: #2c3e50;
+}
+
+.table-responsive{
+    border-radius: 15px;
+}
+
+.table tr th {
+    padding: 12px 12px 5px;
+}
+
+.table tbody tr{
+    background-color: #fff;
+}
+
+/* end stats div */
+
+/* profile user style */
+
+.profile-user{
+
+}
+
+.profile-user .left{
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 6px 8px 10px #aaa;
+    overflow: hidden;
+}
+
+.profile-user .left .created{
+    border-top-right-radius: 5px;
+    position: absolute;
+    top: 26px;
+    right: 17px;
+    padding: 5px 5px;
+
+}
+
+.profile-user .right .updated{
+    position: absolute;
+    bottom: 2px;
+    right: 17px;
+    padding: 5px 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+
+.profile-user .left img{
+    margin-bottom: 20px;
+}
+
+.profile-user .left h5{
+    color:#555;
+    margin-bottom: 8px;
+}
+
+.profile-user .left h6{
+    color:#666;
+    margin-bottom: 14px;
+}
+
+.profile-user .left p{
+  color: #555;
+  margin-top: 1px;
+}
+
+
+.profile-user .right{
+    background-color: #ffffff;
+    padding: 24px;
+    border-radius: 5px;
+}
+
+
+/* start style users */
+
+.users h3{
+    border-bottom: 1px solid #999;
+    padding-bottom: 10px;
+}
+
+.users .card .card-header{
+    line-height: 37px;
+}
+
+.users .card .card-body{
+    padding: 0 !important;
+}
+
+/* end style users */
+/* start style search */
+
+.search-result h3{
+    border-bottom: 1px solid #999;
+    padding-bottom: 10px;
+}
+
+.search-result .card .card-header{
+    line-height: 37px;
+}
+
+.search-result .card .card-body{
+    padding: 0 !important;
+}
+
+/* end style search */
+
+/* start style categories */
+
+.categories h3{
+    border-bottom: 1px solid #999;
+    padding-bottom: 10px;
+}
+
+.categories .card .card-header{
+    line-height: 37px;
+}
+
+.categories .card .card-body{
+    padding: 0 !important;
+}
+
+/* end style categories */
+
+/* start style products */
+
+.products h3{
+    border-bottom: 1px solid #999;
+    padding-bottom: 10px;
+}
+
+.products .card .card-header{
+    line-height: 37px;
+}
+
+.products .card .card-body{
+   padding: 0 !important;
+}
+
+/* end style products */
+
+/* start style tags */
+
+.tags h3{
+    border-bottom: 1px solid #999;
+    padding-bottom: 10px;
+}
+
+.tags .card .card-header{
+    line-height: 37px;
+}
+
+.tags .card .card-body{
+    padding: 0 !important;
+}
+
+/* end style tags */
+
+
+
+    /* start style carousel */
+.py-4{
+    padding : 0 !important;
+}
+ .carousel .carousel-inner .carousel-item img{
+     max-height:450px;
+ }
+
+
+/* end style carousel */
+
+
+
+
+
+/* Login form style */
+
+#loginForm{
+
+}
+
+.card .card-header{
+    font-size: 22px;
+    letter-spacing: 2px;
+    color:#555;
+    text-align: center;
+    padding: 10px;
+    font-weight: 500;
+}
+
+
+
+
+
